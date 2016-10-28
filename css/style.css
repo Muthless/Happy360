@@ -1,0 +1,110 @@
+@charset "utf-8";
+/* 全局样式 */
+html{ font-size: 62.5%; }
+
+body, h1, ul{
+	margin: 0;
+}
+
+body{
+	font-family: "Myriad Set Pro","Helvetica Neue","Helvetica","PingFang SC","Arial","Microsoft YaHei",sans-serif;
+	font-size: 1.4rem;
+}
+
+ul{
+	padding-left: 0;
+	list-style: none;
+}
+
+a{ text-decoration: none; }
+
+.clearfix{
+	overflow: hidden;
+	_zoom:1;
+}
+
+.container{
+	width: 1200px;
+	margin: 0 auto;
+}
+
+/* 头部样式 */
+
+.logo h1 a{
+	height: 60px;
+	background: url(../images/logo.png) no-repeat;
+	display: block;
+	text-indent: -9999px;
+}
+
+.tel a{
+	display: block;
+	height: 60px;
+	background: url(../images/tel.png) no-repeat right 0;
+	text-indent: -9999px;
+}
+
+.nav {background: #0099FF;}                              
+
+.nav li{
+	float: left;
+	height: 40px;
+	line-height: 40px;
+}
+
+.nav li a{
+	display: block;
+	width: 128px;
+	padding: 0 20px;
+	text-align: center;
+	color: white;
+	font-weight: bold;
+}
+
+.nav li a:hover{
+	background: #EA0075;
+}
+
+.nav>ul>li:first-child a{
+	font-size: 2rem;
+}
+
+.subnav{ 
+	position: absolute;
+	background: #ccc;
+	display: none;
+}
+
+.nav li:hover .subnav{ display: block; }
+
+
+.subnav li{
+	clear: both;
+}
+
+.banner{ background: #EAEAEA; }
+
+.main h2{ 
+	padding-left: 80px;
+	font-weight: normal;
+}
+
+#owl-demo { 
+	width: 100%; 
+	margin-left: auto; 
+	margin-right: auto;
+	box-shadow:0px 0px 30px #CCC;
+}
+
+#owl-demo .item{ display: block;}
+
+#owl-demo img { 
+	display: block; 
+	width: 100%;
+}
+
+.owl-theme .owl-controls{
+	margin-top: -30px;
+	position: relative;
+}
+
