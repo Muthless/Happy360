@@ -2,13 +2,25 @@
 /* 全局样式 */
 html{ font-size: 62.5%; }
 
-body, h1, ul{
+body, ul, h1, h2, h3{
 	margin: 0;
 }
 
 body{
 	font-family: "Myriad Set Pro","Helvetica Neue","Helvetica","PingFang SC","Arial","Microsoft YaHei",sans-serif;
 	font-size: 1.4rem;
+}
+
+h1{
+	font-weight: normal;
+	color: #666;
+}
+
+h2{ 
+	color: #999;
+	font-weight: normal;
+	margin-top: 30px;
+	margin-bottom: 20px;
 }
 
 ul{
@@ -84,10 +96,7 @@ a{ text-decoration: none; }
 
 .banner{ background: #EAEAEA; }
 
-.main h2{ 
-	padding-left: 80px;
-	font-weight: normal;
-}
+/* 轮播样式 */
 
 #owl-demo { 
 	width: 100%; 
@@ -108,3 +117,117 @@ a{ text-decoration: none; }
 	position: relative;
 }
 
+/* 团队介绍样式 */
+.person {
+	width: 90%;
+	margin: 0 auto 30px;
+}
+.person img{ width: 100%; }
+
+.person p{
+	font-size: 1.2rem;
+	color: #666;
+	text-align: justify;
+	line-height: 1.5rem;
+}
+
+.person h3{ 
+	color: #666;
+	margin-top: 10px;
+	font-weight: normal; 
+}
+
+.person a{
+	display: block;
+	width: 80px;
+	background: #0099FF;
+	color: white;
+	padding: 8px;
+	text-align: center;
+	-webkit-transition: all 0.5s;
+	-o-transition: all 0.5s;
+	transition: all 0.5s;
+}
+
+.person a:hover{ 
+	background: #f00; 
+}
+
+.person i{ margin-left: 5px; }
+
+
+.muthless{ 
+	background: #0099FF; 
+	height: 50px;
+	line-height: 50px;
+	text-align: center;
+	font-size: 16px;
+	color: white;
+}
+
+.muthless a{
+	display: inline-block;
+	height: 30px;
+	background: #fff;
+	width: 90px;
+	color: #666;
+	line-height: 30px;
+	margin-left: 20px;
+	
+}
+
+
+
+.we {
+	width: 90%;
+	margin: 20px auto;
+}
+
+.we h1{ margin-top: 30px; }
+
+.we p{
+	color: #666;
+	line-height: 2rem;
+	font-size: 1.2rem;
+}
+
+.we h3{ 
+	font-weight: normal;
+	font-size: 2rem;
+	color: #666;
+	margin-bottom: 30px;
+}
+
+.we a{
+	padding: 10px;
+	background: #0099ff;
+	color: white;
+	margin-top: 20px;
+	font-size: 1.2rem;
+}
+
+.we .happy{ width: 80%; }
+
+.we .video{
+	float: right;
+	margin-top: 20px;
+}
+
+.we>h1{
+	font-size: 2rem;
+	border-bottom: 1px #999 solid;
+	padding-bottom: 5px;
+}
+
+.we>img {
+	margin-top: 20px;
+}
+
+.footer {
+	background: #0099ff;
+	height: 150px;
+	line-height: 150px;
+	text-align: center;
+	color: white;
+	font-size: 1.2rem;
+}
